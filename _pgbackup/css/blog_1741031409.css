@@ -321,7 +321,7 @@
 .blog-two__single__content {
     position: relative;
     display: block;
-    background: #b60303;
+    background: red;
     padding: 30px;
     border-radius: 0 0 5px 5px;
 }
