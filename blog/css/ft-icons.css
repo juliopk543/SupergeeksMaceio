@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'ft-icons';
+  src: url('../fonts/ft-icons.eot');
+  src: url('../fonts/ft-icons.eot#iefix') format('embedded-opentype'),
+       url('../fonts/ft-icons.woff2') format('woff2'),
+       url('../fonts/ft-icons.woff') format('woff'),
+       url('../fonts/ft-icons.ttf') format('truetype'),
+       url('../images/ft-icons.svg#ft-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="techlab-icon-"]:before, [class*=" techlab-icon-"]:before {
+  font-family: "ft-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.techlab-icon-down:before { content: '\e800'; } /* '' */
+.techlab-icon-left:before { content: '\e801'; } /* '' */
+.techlab-icon-right:before { content: '\e802'; } /* '' */
+.techlab-icon-photo:before { content: '\e803'; } /* '' */
+.techlab-icon-videocam:before { content: '\e804'; } /* '' */
+.techlab-icon-star:before { content: '\e805'; } /* '' */
+.techlab-icon-heart:before { content: '\e806'; } /* '' */
+.techlab-icon-mail:before { content: '\e807'; } /* '' */
+.techlab-icon-tag:before { content: '\e808'; } /* '' */
+.techlab-icon-comment:before { content: '\e809'; } /* '' */
+.techlab-icon-location:before { content: '\e80a'; } /* '' */
+.techlab-icon-doc:before { content: '\e80b'; } /* '' */
+.techlab-icon-note:before { content: '\e80c'; } /* '' */
+.techlab-icon-calendar:before { content: '\e80d'; } /* '' */
+.techlab-icon-attach:before { content: '\e80e'; } /* '' */
+.techlab-icon-music:before { content: '\e80f'; } /* '' */
+.techlab-icon-right-arrow:before { content: '\e810'; } /* '' */
+.techlab-icon-search:before { content: '\e811'; } /* '' */
+.techlab-icon-location-1:before { content: '\e812'; } /* '' */
+.techlab-icon-user:before { content: '\e813'; } /* '' */
+.techlab-icon-fiender:before { content: '\e814'; } /* '' */
+.techlab-icon-compare-service:before { content: '\e815'; } /* '' */
+.techlab-icon-experience:before { content: '\e816'; } /* '' */
+.techlab-icon-safety:before { content: '\e817'; } /* '' */
+.techlab-icon-pricing:before { content: '\e818'; } /* '' */
+.techlab-icon-trusted:before { content: '\e819'; } /* '' */
+.techlab-icon-choose-service:before { content: '\e81a'; } /* '' */
+.techlab-icon-megaphone:before { content: '\e81b'; } /* '' */
+.techlab-icon-graduation-cap:before { content: '\e81c'; } /* '' */
+.techlab-icon-statistic:before { content: '\e81d'; } /* '' */
+.techlab-icon-chart-bar:before { content: '\e81e'; } /* '' */
+.techlab-icon-cyber:before { content: '\e820'; } /* '' */
+.techlab-icon-comments:before { content: '\e821'; } /* '' */
+.techlab-icon-user2:before { content: '\e822'; } /* '' */
+.techlab-icon-check:before { content: '\e823'; } /* '' */
+.techlab-icon-search2:before { content: '\e825'; } /* '' */
+.techlab-icon-filter:before { content: '\e826'; } /* '' */
+.techlab-icon-arrow-left:before { content: '\e827'; } /* '' */
+.techlab-icon-arrow-right:before { content: '\e828'; } /* '' */
+.techlab-icon-envalop:before { content: '\e829'; } /* '' */
+.techlab-icon-calendar-1:before { content: '\e82a'; } /* '' */
+.techlab-icon-location2:before { content: '\e82b'; } /* '' */
+.techlab-icon-phone:before { content: '\e82c'; } /* '' */
+.techlab-icon-award2:before { content: '\e830'; } /* '' */
+.techlab-icon-settings:before { content: '\e831'; } /* '' */
+.techlab-icon-award:before { content: '\e832'; } /* '' */
+.techlab-icon-members:before { content: '\e833'; } /* '' */
+.techlab-icon-control:before { content: '\e834'; } /* '' */
+.techlab-icon-tablet:before { content: '\e835'; } /* '' */
+.techlab-icon-data:before { content: '\e836'; } /* '' */
+.techlab-icon-app:before { content: '\e837'; } /* '' */
+.techlab-icon-connect:before { content: '\e838'; } /* '' */
+.techlab-icon-data2:before { content: '\e839'; } /* '' */
+.techlab-icon-security:before { content: '\e83a'; } /* '' */
+.techlab-icon-power:before { content: '\e83b'; } /* '' */
+.techlab-icon-down-open:before { content: '\f004'; } /* '' */
+.techlab-icon-up-open:before { content: '\f005'; } /* '' */
+.techlab-icon-right-open:before { content: '\f006'; } /* '' */
+.techlab-icon-left-open:before { content: '\f007'; } /* '' */
+.techlab-icon-chart-line:before { content: '\f201'; } /* '' */

@@ -1,0 +1,360 @@
+/* = Techlab Light Version Css = */
+:root {
+  --light-color: #ffffff;
+  --dark-color: #141414;
+}
+
+/* = Light Color 
+===============================================================================*/
+[data-theme="light-mode"] img.light-logo {
+  display: none;
+}
+
+[data-theme="light-mode"] img.dark-logo {
+  display: block;
+}
+
+[data-theme="light-mode"] .services-two__single-img .inner::before,
+[data-theme="light-mode"] .team-one__social-icon .list-wrap li a,
+[data-theme="light-mode"] .services-two__single-img .inner:after,
+[data-theme="light-mode"] .main-header-two .menu-area__inner,
+[data-theme="light-mode"] .sidebar-quote-box .bottom-box,
+[data-theme="light-mode"] .blog-two__single__content,
+[data-theme="light-mode"] .services-two__single-text,
+[data-theme="light-mode"] .team-one__single-content,
+[data-theme="light-mode"] .pricing-two__single,
+[data-theme="light-mode"] .header-switch-main,
+[data-theme="light-mode"] .social-toggle-icon,
+[data-theme="light-mode"] .contact-one__form,
+[data-theme="light-mode"] .xs-sidebar-widget,
+[data-theme="light-mode"] .logo-box-two,
+[data-theme="light-mode"] .body-dark-bg,
+[data-theme="light-mode"] .feature-one,
+[data-theme="light-mode"] .contact-one,
+[data-theme="light-mode"] .sticky-menu,
+[data-theme="light-mode"] .banner-two,
+[data-theme="light-mode"] body {
+  background-color: var(--light-color);
+}
+
+[data-theme="light-mode"] .team-two__single-icon-box .social-links .share .social-links-inner li a:hover i,
+[data-theme="light-mode"] .subscribe-one .subscribe-one__inner .subscribe-one__form .button-style-1,
+[data-theme="light-mode"] .subscribe-one--two__form-box .subscribe-one__form .button-style-1,
+[data-theme="light-mode"] .pricing-two__single .pricing-btn .button-style-1:hover,
+[data-theme="light-mode"] .banner-one__content .big-title h2 a.button-style-1,
+[data-theme="light-mode"] .footer-one__two-top-inner .social-links li a:hover,
+[data-theme="light-mode"] .project-details__text1-list ul li .icon-box:hover,
+[data-theme="light-mode"] .pricing-two__single:hover .pricing-two__price h2,
+[data-theme="light-mode"] .pricing-one__single .button-style-1:hover,
+[data-theme="light-mode"] .single-sidebar__contact-box .text-box p,
+[data-theme="light-mode"] .contact-one__form-btn .button-style-1,
+[data-theme="light-mode"] .banner-two .btn-box .button-style-1,
+[data-theme="light-mode"] body .subscribe-one--two__content p,
+[data-theme="light-mode"] .pricing-one__single .popular-text,
+[data-theme="light-mode"] .main-header-two .button-style-1,
+[data-theme="light-mode"] .subscribe-one--two__content h2,
+[data-theme="light-mode"] .services-two__single-btn,
+[data-theme="light-mode"] .project-one__sub-title {
+  color: var(--light-color);
+}
+
+[data-theme="light-mode"] .banner-one__bg:before {
+  background: rgba(255, 255, 255, .7)
+}
+
+[data-theme="light-mode"] .page-header__bg::before,
+[data-theme="light-mode"] .banner-one__bg:after {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #ffffff 100%);
+}
+
+/* = Dark Color 
+===============================================================================*/
+[data-theme="light-mode"] .subscribe-one .subscribe-one__inner .subscribe-one__form .button-style-1:hover,
+[data-theme="light-mode"] .team-two__single-icon-box .social-links .share .social-links-inner li a i,
+[data-theme="light-mode"] .subscribe-one--two__form-box .subscribe-one__form .button-style-1:hover,
+[data-theme="light-mode"] .about-one__content-features ul li .inner .icon span,
+[data-theme="light-mode"] .fact-counter-one__single-inner .outer-box .title p,
+[data-theme="light-mode"] .banner-two__left-content-text1 .counter-box .count,
+[data-theme="light-mode"] .faq-one__accrodion .accrodion .accrodion-title h2,
+[data-theme="light-mode"] .testimonial-two__single-author-box .text-box2 h2,
+[data-theme="light-mode"] .banner-two__right-content-bottom .counter .count,
+[data-theme="light-mode"] .fact-counter-two__single-inner .text-box .count,
+[data-theme="light-mode"] .footer-widget-blog-info .footer-blog-text h3 a,
+[data-theme="light-mode"] .project-details__text1-list ul li .text-box h4,
+[data-theme="light-mode"] .xs-sidebar-group .content-inner .content-box p,
+[data-theme="light-mode"] .banner-two__left-content-text1 .counter-box p,
+[data-theme="light-mode"] .contact-page__contact-info ul li .text-box h3,
+[data-theme="light-mode"] .banner-two__right-content-bottom .text-box p,
+[data-theme="light-mode"] .team-one__social-icon .list-wrap li a i,
+[data-theme="light-mode"] .services-one__single-title .icon span i,
+[data-theme="light-mode"] .swiper-nav-style1 .swiper-button-prev,
+[data-theme="light-mode"] .swiper-nav-style1 .swiper-button-next, 
+[data-theme="light-mode"] .main-header-two__bottom-right ul li a,
+[data-theme="light-mode"] .pricing-one__single .button-style-1,
+[data-theme="light-mode"] .pricing-two__single .button-style-1,
+[data-theme="light-mode"] .banner-two__left-content .title h2,
+[data-theme="light-mode"] .xs-sidebar-group .content-inner h4,
+[data-theme="light-mode"] .xs-sidebar-group .widget-heading a,
+[data-theme="light-mode"] .banner-one__content .big-title h2,
+[data-theme="light-mode"] .projects-two__single-content h2 a,
+[data-theme="light-mode"] .project-details__btn-box-single a,
+[data-theme="light-mode"] .services-one__single-title h3 a,
+[data-theme="light-mode"] .contact-info-box-one .icon span,
+[data-theme="light-mode"] .services-two__single-text h3 a,
+[data-theme="light-mode"] .single-footer-widget .title h3,
+[data-theme="light-mode"] .header-contact-info ul li p a,
+[data-theme="light-mode"] .team-one__single-content h2 a,
+[data-theme="light-mode"] .contact-info-box-one .text p,
+[data-theme="light-mode"] .contact-info-box-one .text a,
+[data-theme="light-mode"] .copyright-menu ul li a:hover,
+[data-theme="light-mode"] .header-contact-info ul li p,
+[data-theme="light-mode"] .team-two__single-title h2 a,
+[data-theme="light-mode"] .footer-one ul.menu li a,
+[data-theme="light-mode"] .blog-two__single__btn,
+[data-theme="light-mode"] .header-light-settings,
+[data-theme="light-mode"] .wp-block-tag-cloud a,
+[data-theme="light-mode"] .header-dark-settings,
+[data-theme="light-mode"] .navbar-wrap ul li a,
+[data-theme="light-mode"] .thm-breadcrumb span,
+[data-theme="light-mode"] .footer-widget p,
+[data-theme="light-mode"] .button-style-2,
+[data-theme="light-mode"] .btn-box-area a,
+[data-theme="light-mode"] h1,
+[data-theme="light-mode"] h2,
+[data-theme="light-mode"] h3,
+[data-theme="light-mode"] h4,
+[data-theme="light-mode"] h5,
+[data-theme="light-mode"] h6 {
+  color: var(--dark-color);
+}
+
+[data-theme="light-mode"] .project-details__text1-list ul li .text-box p,
+[data-theme="light-mode"] .about-two__content-list-box-single ul li p,
+[data-theme="light-mode"] .widget_recent_comments .recentcomments a,
+[data-theme="light-mode"] .sidebar-contact-info ul li span:before,
+[data-theme="light-mode"] .widget.widget_categories ul li a, 
+[data-theme="light-mode"] .widget.widget_nav_menu ul li a, 
+[data-theme="light-mode"] .widget.widget_archive ul li a,
+[data-theme="light-mode"] .widget.widget_pages ul li a, 
+[data-theme="light-mode"] .sidebar-contact-info ul li,
+[data-theme="light-mode"] .widget.widget_meta ul li a, 
+[data-theme="light-mode"] .pricing-two__list ul li,
+[data-theme="light-mode"] .blog-post-meta ul li a, 
+[data-theme="light-mode"] .widget_block ul li a, 
+[data-theme="light-mode"] .tg-post-tag ul li a, 
+[data-theme="light-mode"] .widget li a,
+[data-theme="light-mode"] .tagcloud a,
+[data-theme="light-mode"] body p,
+[data-theme="light-mode"] body {
+  color: #616670;
+}
+
+/* Primary Color */
+[data-theme="light-mode"] .footer-one__two .footer-widget-blog-info .footer-blog-text h3 a:hover,
+[data-theme="light-mode"] .footer-one__two-top-inner .social-links li a,
+[data-theme="light-mode"] .project-details__text1-list ul li .icon-box,
+[data-theme="light-mode"] .footer-widget-contact-info ul li .icon-box,
+[data-theme="light-mode"] .widget.widget_categories ul li a:hover,
+[data-theme="light-mode"] .working-process-one__btn:hover,
+[data-theme="light-mode"] .footer-one ul.menu li a:hover,
+[data-theme="light-mode"] .tg-post-tag ul li a:hover,
+[data-theme="light-mode"] .btn-box-area a:hover {
+  color: #df2a19;
+}
+
+/* Dark RGBA */
+[data-theme="light-mode"] .services-one__single,
+[data-theme="light-mode"] .button-style-2 {
+  background-color: transparent;
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, .06);
+}
+
+/* Border Color */
+[data-theme="light-mode"] .contact-one__form .input-box input[type="email"], 
+[data-theme="light-mode"] .contact-one__form .input-box input[type="text"], 
+[data-theme="light-mode"] .blog-post-comment .comment-field textarea,
+[data-theme="light-mode"] .blog-post-comment .comment-field input,
+[data-theme="light-mode"] .contact-one__form .input-box textarea,
+[data-theme="light-mode"] .footer-one__two .footer-bottom__inner,
+[data-theme="light-mode"] .cs-post.cs-style2 .cs-post_title,
+[data-theme="light-mode"] .project-details__text1-list ul,
+[data-theme="light-mode"] .sidebar-search-form input,
+[data-theme="light-mode"] .footer-one__two-top-inner,
+[data-theme="light-mode"] .widget_categories ul li,
+[data-theme="light-mode"] .widget_archive ul li, 
+[data-theme="light-mode"] .pricing-one__single,
+[data-theme="light-mode"] .team-two__single,
+[data-theme="light-mode"] .footer-bottom,
+[data-theme="light-mode"] .comment-wrap {
+  border-color: #e3e3e3;
+}
+
+.xs-sidebar-group .content-inner .form-inner .form-group input[type='email'], 
+.xs-sidebar-group .content-inner .form-inner .form-group input[type='text'], 
+[data-theme="light-mode"] .project-details__text1-list ul li::before,
+.xs-sidebar-group .content-inner .form-inner .form-group textarea,
+[data-theme="light-mode"] .pricing-one__single-left::before,
+[data-theme="light-mode"] .header-switch {
+  background-color: #e3e3e3;
+}
+
+/* Others */
+[data-theme="light-mode"] .swiper-nav-style1 .swiper-button-next, 
+[data-theme="light-mode"] .swiper-nav-style1 .swiper-button-prev {
+  color: #df2a19;
+  background-color: #df2a191a;
+}
+
+[data-theme="light-mode"] .swiper-nav-style1 .swiper-button-next:hover, 
+[data-theme="light-mode"] .swiper-nav-style1 .swiper-button-prev:hover,
+[data-theme="light-mode"] .wp-block-tag-cloud a:hover, 
+[data-theme="light-mode"] .tagcloud a:hover {
+  color: #ffffff;
+  background-color: #df2a19;
+}
+
+[data-theme="light-mode"] .wp-block-tag-cloud a:hover, 
+[data-theme="light-mode"] .tagcloud a:hover {
+  border-color: #df2a19;
+}
+[data-theme="light-mode"] .contact-page__form .input-box input[type="number"], 
+[data-theme="light-mode"] .contact-page__form .input-box input[type="email"], 
+[data-theme="light-mode"] .contact-page__form .input-box input[type="text"], 
+[data-theme="light-mode"] .faq-one__accrodion .accrodion .accrodion-title,
+[data-theme="light-mode"] .contact-page__form .input-box textarea,
+[data-theme="light-mode"] .fact-counter-two__single-inner,
+[data-theme="light-mode"] .fact-counter-one__single-inner,
+[data-theme="light-mode"] .sidebar-quote-box .text-box,
+[data-theme="light-mode"] .working-process-one__single,
+[data-theme="light-mode"] .testimonial-one__single,
+[data-theme="light-mode"] .testimonial-two__single,
+[data-theme="light-mode"] .blog-details-bottom,
+[data-theme="light-mode"] .wp-block-quote,
+[data-theme="light-mode"] .blog-widget,
+[data-theme="light-mode"] blockquote,
+[data-theme="light-mode"] .team-one,
+[data-theme="light-mode"] footer {
+  background-color: #f5f4fa;
+}
+
+[data-theme="light-mode"]  .fact-counter-one__single-inner .outer-box h2 {
+  color: var(--dark-color);
+  -webkit-text-stroke: 1px var(--dark-color);
+}
+
+[data-theme="light-mode"] .footer-widget-contact-info ul li .icon-box,
+[data-theme="light-mode"] .testimonial-one {
+  background-color: transparent;
+}
+
+[data-theme="light-mode"] .header-switch-main::before {
+  background-color: var(--dark-color);
+}
+
+[data-theme="light-mode"] .contact-one__form,
+[data-theme="light-mode"] .blog-two__single {
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+}
+
+[data-theme="light-mode"] .contact-one__form-btn .button-style-1:hover {
+  background-color: #df2a19;
+}
+
+[data-theme="light-mode"] .main-slider__nav .swiper-button-next, 
+[data-theme="light-mode"] .main-slider__nav .swiper-button-prev {
+  background-color: #141416;
+}
+
+[data-theme="light-mode"] .main-slider__nav .swiper-button-next:hover, 
+[data-theme="light-mode"] .main-slider__nav .swiper-button-prev:hover {
+  background-color: #df2a19;
+}
+
+[data-theme="light-mode"] .main-header-two__bottom::before {
+  background-color: #1414161a;
+}
+
+[data-theme="light-mode"] .logo-box-two {
+  border-right: 1px solid #1414161a;
+}
+
+[data-theme="light-mode"] .banner-two__right-content .shape2 img,
+[data-theme="light-mode"] .banner-two .shape3 img,
+[data-theme="light-mode"] .banner-two .shape1 img {
+  filter: invert(94%) sepia(10%) saturate(42%) hue-rotate(169deg) brightness(100%) contrast(94%);
+}
+
+[data-theme="light-mode"] .services-two__single,
+[data-theme="light-mode"] .pricing-two__single {
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, .06);
+}
+
+[data-theme="light-mode"] .services-two__single-btn {
+  color: #df2a19;
+  background-color: rgba(185, 18, 2, .1);
+}
+
+[data-theme="light-mode"] blockquote::before, 
+[data-theme="light-mode"] .wp-block-quote::before, 
+[data-theme="light-mode"] .tg-page-content blockquote::before, 
+[data-theme="light-mode"] .format-quote blockquote::before, 
+[data-theme="light-mode"] .tg-blog-details-content blockquote::before,
+[data-theme="light-mode"] .pricing-two__price {
+  background-color: rgba(185, 18, 2, .1);
+}
+
+/* Primary Dark */
+[data-theme="light-mode"] .footer-one__two-top-inner .social-links li a,
+[data-theme="light-mode"] .project-details__text1-list ul li .icon-box {
+  background-color: rgba(223,42,25,.15);
+}
+
+[data-theme="light-mode"] .pricing-two__single .pricing-two__price.active h2 {
+  color: var(--light-color);
+}
+
+[data-theme="light-mode"] .feature-one {
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+[data-theme="light-mode"] .working-process-one__big-text {
+  color: rgba(185, 18, 2, .1);
+}
+
+[data-theme="light-mode"] .working-process-one__btn {
+  color: #616670;
+}
+
+[data-theme="light-mode"] .sidebar-quote-box .bottom-box {
+  padding-top: 10px;
+}
+
+[data-theme="light-mode"] .wp-block-tag-cloud a, 
+[data-theme="light-mode"] .tagcloud a {
+  background-color: transparent;
+  border: 1px solid #14141633;
+}
+
+[data-theme="light-mode"] .xs-sidebar-group .content-inner .form-inner .form-group input[type='email']::placeholder,
+[data-theme="light-mode"] .xs-sidebar-group .content-inner .form-inner .form-group input[type='text']::placeholder,
+[data-theme="light-mode"] .xs-sidebar-group .content-inner .form-inner .form-group textarea::placeholder,
+[data-theme="light-mode"] .xs-sidebar-group .content-inner .form-inner .form-group input[type='email'],
+[data-theme="light-mode"] .xs-sidebar-group .content-inner .form-inner .form-group input[type='text'],
+[data-theme="light-mode"] .xs-sidebar-group .content-inner .form-inner .form-group textarea,
+[data-theme="light-mode"] .contact-page__form .input-box input[type="number"]::placeholder, 
+[data-theme="light-mode"] .contact-page__form .input-box input[type="email"]::placeholder,
+[data-theme="light-mode"] .contact-page__form .input-box input[type="text"]::placeholder,
+[data-theme="light-mode"] .contact-page__form .input-box textarea::placeholder {
+  color: #919191;
+}
+
+[data-theme="light-mode"] .footer-widget-contact-info ul li .icon-box {
+  border: 1px solid #616670;
+}
+[data-theme="light-mode"] .footer-one__two .footer-widget-contact-info ul li .icon-box {
+  border: none;
+}
+[data-theme="light-mode"] .main-header-two .button-style-1 {
+  border-radius: 0;
+}
