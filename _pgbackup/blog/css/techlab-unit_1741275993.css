@@ -2250,7 +2250,7 @@ ul.children {
     text-transform: capitalize;
     letter-spacing: 1px;
     margin-top: 0;
-    color: #b20000;
+    color: red;
 }
 
 a.comment-reply-link {

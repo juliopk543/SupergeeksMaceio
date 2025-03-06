@@ -465,14 +465,13 @@ blockquote p,
     letter-spacing: 0.1em;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 12px;
     display: block;
     color: #3c3c3c;
 }
 
 .latest-comments ul li .comments-box .comment-text > p {
     margin-bottom: 0;
-    color: #3c3c3c;
 }
 
 .latest-comments ul li .children {

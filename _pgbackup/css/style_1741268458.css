@@ -147,7 +147,7 @@ a:focus,
 a:hover,
 .portfolio-cat a:hover,
 .footer -menu li a:hover {
-    color: red;
+    color: var(--thm-primary-color);
     text-decoration: none;
 }
 
@@ -335,7 +335,7 @@ label {
 
 ::selection {
     background: var(--thm-primary-color);
-    color: red;
+    color: var(--thm-white);
     text-shadow: none;
 }
 

@@ -1,6 +1,7 @@
-/* =============================
+
+/*=============================
 	Footer style1
-=============================== */
+===============================*/
 .footer-one {
     position: relative;
     display: block;
@@ -35,7 +36,7 @@
 }
 
 .single-footer-widget .title h3 {
-    color: black;
+    color: var(--thm-white);
     font-size: 24px;
     line-height: 30px;
 }
@@ -178,7 +179,7 @@
 }
 
 .footer-widget-contact-info ul li .text-box p a:hover {
-    color: red;
+    color: var(--thm-white);
 }
 
 .footer-widget-blog-info {
@@ -286,9 +287,10 @@
     color: var(--thm-white);
 }
 
-/* =============================
+
+/*=============================
 	Footer Two
-=============================== */
+===============================*/
 .footer-one__two {
     position: relative;
     display: block;
@@ -391,7 +393,7 @@
 }
 
 .footer-one__two .footer-widget-blog-info .footer-blog-text h3 a:hover {
-    color: red;
+    color: var(--thm-white);
 }
 
 .footer-one__two .footer-widget-blog-info .footer-blog-text span {
