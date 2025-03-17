@@ -151,7 +151,7 @@ hr {
 .blog-details-wrap .blog-post-content p {
     margin-bottom: 15px;
     line-height: 1.6em;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .bd-approach-wrap {
@@ -465,7 +465,7 @@ blockquote p,
     letter-spacing: 0.1em;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 13px;
     display: block;
     color: #3c3c3c;
 }
@@ -473,7 +473,6 @@ blockquote p,
 .latest-comments ul li .comments-box .comment-text > p {
     margin-bottom: 0;
     color: #3c3c3c;
-    font-size: 1.2rem;
 }
 
 .latest-comments ul li .children {

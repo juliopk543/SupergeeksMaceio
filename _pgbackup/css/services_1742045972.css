@@ -228,7 +228,7 @@
 .services-two__single-text {
     position: relative;
     display: block;
-    background-color: #da0000;
+    background-color: red;
     padding: 40px 30px 40px;
     border-radius: 0px 0px 20px 20px;
 }

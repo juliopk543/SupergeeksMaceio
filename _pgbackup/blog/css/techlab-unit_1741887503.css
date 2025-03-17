@@ -2279,7 +2279,7 @@ a.comment-reply-link {
 .comment-text {
     overflow: hidden;
     flex-grow: 1;
-    margin-left: 25px;
+    margin-left: ;
 }
 
 .comment-text p img {

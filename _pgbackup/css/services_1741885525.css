@@ -1,11 +1,12 @@
-/* =============================
+/*=============================
 	Services One CSS
-=============================== */
+===============================*/
 .services-one {
     position: relative;
     display: block;
     padding: 120px 0 0px;
     z-index: 1;
+
 }
 
 .services-one__single {
@@ -102,14 +103,14 @@
 .services-one__single .button-style-2 {
     border: 1px solid transparent;
 }
-
 .services-one__single:hover .button-style-2 {
     border: 1px solid var(--thm-primary-color);
 }
 
-/* =============================
+
+/*=============================
 	Services Two Css
-=============================== */
+===============================*/
 .services-two {
     position: relative;
     padding: 0 0 90px;
@@ -228,9 +229,8 @@
 .services-two__single-text {
     position: relative;
     display: block;
-    background-color: #da0000;
+    background-color: var(--thm-black-bg);
     padding: 40px 30px 40px;
-    border-radius: 0px 0px 20px 20px;
 }
 
 .services-two__single-text h3 {
@@ -244,7 +244,7 @@
 }
 
 .services-two__single-text h3 a:hover {
-    color: yellow;
+    color: var(--thm-primary-color);
 }
 
 .services-two__single-btn {
@@ -295,9 +295,11 @@
     transform: perspective(400px) rotateX(0deg) scale(1.0);
 }
 
-/* =============================
+
+/*=============================
 	Services Details
-=============================== */
+===============================*/
+
 .service-details-page {
     position: relative;
     display: block;
@@ -380,7 +382,7 @@
 }
 
 .single-sidebar__service-list li a:hover,
-.single-sidebar__service-list li a.active {
+.single-sidebar__service-list li a.active {
     color: var(--thm-primary-color);
 }
 
@@ -395,7 +397,7 @@
 }
 
 .single-sidebar__service-list li a:hover span,
-.single-sidebar__service-list li a.active span {
+.single-sidebar__service-list li a.active span {
     color: var(--thm-primary-color);
 }
 
