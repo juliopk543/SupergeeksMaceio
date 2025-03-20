@@ -365,15 +365,15 @@ function enviarFormulario() {
     const cursoDia = document.getElementById('cursoDia').value;
     const modalidade = document.getElementById('modalidade').value;
 
-    // Monta a mensagem com os dados do formulário, codificando cada parte separadamente
-    const mensagem = "Plantão De Dúvidas:" + "%0A" + "%0A" +
-                     "Nome do Aluno(a): " + "*"+encodeURIComponent(nomeAluno)+"*" + "%0A" +
-                     "Sobrenome: " + "*"+encodeURIComponent(sobrenome)+"*" + "%0A" +
-                     "Curso ou Dia da Aula: " + "*"+encodeURIComponent(cursoDia)+"*" + "%0A" +
-                     "Modalidade: " + "*"+encodeURIComponent(modalidade)+"*";
+    // Monta a mensagem com os dados do formulário
+    const mensagem = `Informações do Formulário: %0D%0D` +
+                     `Nome do Aluno(a): ${nomeAluno} %0D%0D` +
+                     `Sobrenome: ${sobrenome} ` +
+                     `Curso ou Dia da Aula: ${cursoDia} %0D%0D` +
+                     `Modalidade: ${modalidade} %0D%0D`;
 
     // Monta o link do WhatsApp com a mensagem
-    const whatsappLink = `https://wa.me/8291156400?text=${mensagem}`;
+    const whatsappLink = `https://wa.me/8291156400?text=${encodeURIComponent(mensagem)}`;
 
     // Redireciona para o WhatsApp
     window.location.href = whatsappLink;

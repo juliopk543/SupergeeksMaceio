@@ -345,7 +345,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                                                 <div class="col-md-12">
                                                     <div class="comment-field">
                                                         <select id="modalidade" name="modalidade" class="tp-form-control">
-                                                            <option value="" disabled selected>Você prefere: Online ou Presencial?</option>
+                                                            <option value="" disabled selected>Escolha: Online ou Presencial</option>
                                                             <option value="Online">Online</option>
                                                             <option value="Presencial">Presencial</option>
                                                         </select>
@@ -365,15 +365,15 @@ function enviarFormulario() {
     const cursoDia = document.getElementById('cursoDia').value;
     const modalidade = document.getElementById('modalidade').value;
 
-    // Monta a mensagem com os dados do formulário, codificando cada parte separadamente
-    const mensagem = "Plantão De Dúvidas:" + "%0A" + "%0A" +
-                     "Nome do Aluno(a): " + "*"+encodeURIComponent(nomeAluno)+"*" + "%0A" +
-                     "Sobrenome: " + "*"+encodeURIComponent(sobrenome)+"*" + "%0A" +
-                     "Curso ou Dia da Aula: " + "*"+encodeURIComponent(cursoDia)+"*" + "%0A" +
-                     "Modalidade: " + "*"+encodeURIComponent(modalidade)+"*";
+    // Monta a mensagem com os dados do formulário, com quebras de linha
+    const mensagem = `Informações do Formulário:%0A` +
+                     `Nome do Aluno(a): ${nomeAluno}%0A` +
+                     `Sobrenome: ${sobrenome}%0A` +
+                     `Curso ou Dia da Aula: ${cursoDia}%0A` +
+                     `Modalidade: ${modalidade}%0A`;
 
     // Monta o link do WhatsApp com a mensagem
-    const whatsappLink = `https://wa.me/8291156400?text=${mensagem}`;
+    const whatsappLink = `https://wa.me/8291156400?text=${encodeURIComponent(mensagem)}`;
 
     // Redireciona para o WhatsApp
     window.location.href = whatsappLink;

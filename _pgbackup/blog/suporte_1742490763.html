@@ -334,21 +334,12 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="comment-field">
-                                                        <input placeholder="Sobrenome" id="sobrenome" name="sobrenome" class="tp-form-control" type="text" value="" size="30" aria-required="true">
+                                                        <input placeholder="Sobrenome" id="email" name="email" class="tp-form-control" type="email" value="" size="30" aria-required="true">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-12">
                                                     <div class="comment-field">
-                                                        <input placeholder="Curso ou Dia da Aula" id="cursoDia" name="cursoDia" class="tp-form-control" type="text" value="" size="30">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <div class="comment-field">
-                                                        <select id="modalidade" name="modalidade" class="tp-form-control">
-                                                            <option value="" disabled selected>Você prefere: Online ou Presencial?</option>
-                                                            <option value="Online">Online</option>
-                                                            <option value="Presencial">Presencial</option>
-                                                        </select>
+                                                        <input placeholder="Curso ou Dia da Aula" id="whatsapp" name="whatsapp" class="tp-form-control" type="text" value="" size="30">
                                                     </div>
                                                 </div>
                                             </div>
@@ -361,24 +352,46 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 function enviarFormulario() {
     // Captura os valores dos campos
     const nomeAluno = document.getElementById('author').value;
-    const sobrenome = document.getElementById('sobrenome').value;
-    const cursoDia = document.getElementById('cursoDia').value;
-    const modalidade = document.getElementById('modalidade').value;
+    const nomeResponsavel = document.getElementById('email').value;
+    const whatsapp = document.getElementById('whatsapp').value;
+    const diaAula = document.getElementById('diaAula').value;
 
-    // Monta a mensagem com os dados do formulário, codificando cada parte separadamente
-    const mensagem = "Plantão De Dúvidas:" + "%0A" + "%0A" +
-                     "Nome do Aluno(a): " + "*"+encodeURIComponent(nomeAluno)+"*" + "%0A" +
-                     "Sobrenome: " + "*"+encodeURIComponent(sobrenome)+"*" + "%0A" +
-                     "Curso ou Dia da Aula: " + "*"+encodeURIComponent(cursoDia)+"*" + "%0A" +
-                     "Modalidade: " + "*"+encodeURIComponent(modalidade)+"*";
+    // Monta a mensagem com os dados do formulário
+    const mensagem = `Informações do Formulário:%0A` +
+                     `Nome do Aluno(a): ${nomeAluno}%0A` +
+                     `Nome do Responsável: ${nomeResponsavel}%0A` +
+                     `Número WhatsApp: ${whatsapp}%0A` +
+                     `Dia da Aula: ${diaAula}`;
 
     // Monta o link do WhatsApp com a mensagem
-    const whatsappLink = `https://wa.me/8291156400?text=${mensagem}`;
+    const whatsappLink = `https://wa.me/8291156400?text=${encodeURIComponent(mensagem)}`;
 
     // Redireciona para o WhatsApp
     window.location.href = whatsappLink;
 }
 </script>
+                                        <script>
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('.button-style-1').addEventListener('click', function(event) {
+        event.preventDefault(); // Impede o envio do formulário
+
+        // Captura os valores dos campos
+        var nomeAluno = document.getElementById('author').value;
+        var nomeResponsavel = document.getElementById('email').value;
+        var numeroWhatsapp = document.getElementById('url').value;
+        var diaAula = document.querySelector('input[placeholder="Dia da aula"]').value;
+
+        // Cria a mensagem que será enviada pelo WhatsApp
+        var mensagem = `Nome do Aluno(a): ${nomeAluno}%0ANome do Responsável: ${nomeResponsavel}%0ADia da aula: ${diaAula}`;
+
+        // Cria o link do WhatsApp com a mensagem
+        var linkWhatsapp = `https://wa.me/8291156400?text=${mensagem}`;
+
+        // Redireciona para o link do WhatsApp
+        window.location.href = linkWhatsapp;
+    });
+});
+</script>                                         
                                     </div>
                                     <!-- #respond -->
                                 </div>
